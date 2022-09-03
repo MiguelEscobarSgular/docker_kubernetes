@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('environmet') {
       steps {
-        sh 'ls -lrt'
+        sh 'dir'
       }
     }
 
