@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('environmet') {
       steps {
-        sh 'dir'
+        sh 'docker --version'
       }
     }
 
