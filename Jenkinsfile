@@ -8,7 +8,7 @@ pipeline {
       }
     }
 
-    stage('') {
+    stage('run') {
       steps {
         bat 'run'
       }
