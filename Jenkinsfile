@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('environmet') {
       steps {
-        sh 'docker --version'
+        bat 'dir'
       }
     }
 
