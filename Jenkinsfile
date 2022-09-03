@@ -4,7 +4,7 @@ pipeline {
     stage('environmet') {
       steps {
         bat 'dir'
-        bat 'build.bat'
+        bat 'build'
       }
     }
 
