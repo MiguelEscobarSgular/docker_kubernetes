@@ -14,5 +14,11 @@ pipeline {
       }
     }
 
+    stage('test') {
+      steps {
+        bat 'python3 ./test_script/test_api.py'
+      }
+    }
+
   }
 }
