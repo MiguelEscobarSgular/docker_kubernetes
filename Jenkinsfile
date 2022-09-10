@@ -10,7 +10,13 @@ pipeline {
 
     stage('run') {
       steps {
-        bat 'run'
+        bat 'run_stage'
+      }
+    }
+
+    stage('test') {
+      steps {
+        bat 'python3 ./test_script/test_api.py'
       }
     }
 
